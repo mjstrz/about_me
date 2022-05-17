@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
