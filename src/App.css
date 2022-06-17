@@ -226,4 +226,21 @@ footer {
   padding-top: 1em;
 }
 
+.footer-hr, .header-hr {
+ 
+    border-top: 2px solid #b4b4b4;
+    width: 80%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+
+}
+
+jumbotron {
+  background-color: black;
+}
+
+.fa-map-marker {
+  justify-content: center;
+}
+
 

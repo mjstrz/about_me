@@ -5,8 +5,9 @@ export default function Navbar(props){
        <nav
             // className={props.darkMode ? "dark" : ""}
        >
-           <h1>Navbar will go here</h1>
-
+           <jumbotron className="jumbotron">
+                <h1>Navbar will go here</h1>
+           </jumbotron>
            {/* <h3 className="nav--logo_text">About me</h3> */}
            {/* <div className='toggler'>
                 <p className="toggler--light">Light</p>
@@ -18,6 +19,8 @@ export default function Navbar(props){
                 </div>
                 <p className='toggler--dark'>Dark</p>
            </div> */}
+
+           <hr />
        </nav>
     )
 }
