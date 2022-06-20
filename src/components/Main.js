@@ -23,16 +23,16 @@ export default function Main(props) {
 
             <hr className="header-hr"/>
 
-            <h2 className='main--header col-6'>About</h2>
+            <h2 className='main--header col-6' id="about">About</h2>
             <p>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
 
             <p>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented. an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
 
-            <h2 className='main--header'>Interests</h2>
+            <h2 className='main--header' id="interests">Interests</h2>
                 <p>Being outside. Skiing. Biking. Electronic music. Porch Gardening. Building React sites!</p>
 
                 
-                <h2>Projects</h2>
+                <h2 id="projects">Projects</h2>
 
                 <hr className='footer-hr' />
                 <footer className='site-footer'>      

@@ -43,8 +43,8 @@ main.dark {
 /* NAV */
 
 nav {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   background-color: cornsilk;
   padding: 30px 25px;
   height: 60px;
@@ -52,8 +52,10 @@ nav {
   z-index: 1;
 }
 
-nav.dark {
-  background-color: #23252C;
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
 }
 
 .nav--title {
