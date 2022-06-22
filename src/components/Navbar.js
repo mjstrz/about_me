@@ -8,6 +8,7 @@ export default function Navbar(props){
                 <li><a href="#interest">Interests</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="resume/resume.pdf" target="_blank">Resume</a></li>
             </ul>       
        </nav>
     )
