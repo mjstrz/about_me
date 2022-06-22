@@ -28,6 +28,10 @@ h1, p, h2, h5, .buttons {
   align-items: center;
 }
 
+.headshot { 
+  border: 1px solid black;
+}
+
 
 main { 
   padding: 57px 27px;

@@ -1,7 +1,7 @@
 import React from 'react';
 // import Button from 'react-bootstrap/Button';
 import '../App.css';
-// import sobieski from '../public/images/sobieski.jpg'
+import sobieski from '../images/sobieski.jpg'
 
 export default function Main(props) {
     const year = new Date().getFullYear();
@@ -13,7 +13,9 @@ export default function Main(props) {
                 <p>Front-End Developer</p>
                 {/* <Button className='resume-button'>Resume</Button> */}
                 <i className='fa fa-map-marker'><h4>Boston, Massachusetts, USA</h4></i>
-                <img src="../public/images/sobieski.jpg" alt="something goes here"/>
+                <div className='headshot'>
+                    <img src={sobieski} alt="something goes here"/>
+                </div>
             </div>
 
             <div className='buttons'>
