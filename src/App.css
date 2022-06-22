@@ -68,6 +68,10 @@ nav {
   align-items: center;
 }
 
+#about { 
+  border: solid;
+}
+
 /* TOGGLER styles */
 
 /* .toggler {

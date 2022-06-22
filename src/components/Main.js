@@ -20,8 +20,8 @@ export default function Main(props) {
 
             <div className='buttons'>
                 <ul className='social-media-buttons'>
-                    <li><a role="button" href="mailto: strzelecki.monica7@gmail.com"><i className='fa fa-envelope'></i></a></li>
-                    <li><a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/monica-strzelecki/" target="_blank"> <i class="fa-brands fa-linkedin-in" ></i>hello</a>{' '}</li>
+                    <li><a role="button" href="mailto: strzelecki.monica7@gmail.com"><i className='fa fa-envelope' aria-hidden="true"></i></a></li>
+                    <li><a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/monica-strzelecki/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>hello</a>{' '}</li>
                     <li><a className="btn btn-social-icon btn-github" href="https://www.github.com/mjstrz" target="_blank"><i className='fa fa-github'></i></a> </li>
                 </ul>                 
             </div>
