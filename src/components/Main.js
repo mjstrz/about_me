@@ -14,7 +14,7 @@ export default function Main(props) {
             <h1 className='main--title'>Monica Strzelecki</h1>
                 <p>Front-End Developer</p>
                 {/* <Button className='resume-button'>Resume</Button> */}
-                <i className='fa fa-map-marker'><h4>Boston, Massachusetts, USA</h4></i>
+                <i className='fa fa-map-marker'><h4>Boston</h4></i>
                 <div className='headshot'>
                     <img src={sobieski} alt="something goes here"/>
                 </div>
@@ -30,11 +30,11 @@ export default function Main(props) {
 
             <hr className="header-hr"/>
 
-            <h2 className='main--header' id="about">About</h2>
+            <h2 className='main--header' id="about">About Me</h2>
                 <div className="row">
                     <p className='col-6'>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
 
-                    <p>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented. an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
+                    <p className='col-6'>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented, an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
                 </div>
             {/* Skills images */}
             <div class="container-fluid padding">            
