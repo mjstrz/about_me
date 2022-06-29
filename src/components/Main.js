@@ -4,6 +4,7 @@ import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import sobieski from '../images/sobieski.jpg'
+import lavender from '../images/lavender/lavenderField.jpg'
 
 export default function Main(props) {
     const year = new Date().getFullYear();
@@ -11,13 +12,14 @@ export default function Main(props) {
     return(
     <main>
         <div className="intro-container">
-            <h1 className='main--title'>Monica Strzelecki</h1>
-                <p>Front-End Developer</p>
+            
+            <div className='row'>
+                <img src={lavender} alt="lavender field" id="lavender"/>
+            </div>
+                {/* <p>Front-End Developer</p> */}
                 {/* <Button className='resume-button'>Resume</Button> */}
                 <i className='fa fa-map-marker'><h4>Boston</h4></i>
-                <div className='headshot'>
-                    <img src={sobieski} alt="something goes here"/>
-                </div>
+
             </div>
 
             <div className='buttons'>
@@ -32,9 +34,14 @@ export default function Main(props) {
 
             <h2 className='main--header' id="about">About Me</h2>
                 <div className="row">
-                    <p className='col-6'>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
 
-                    <p className='col-6'>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented, an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
+                {/* <div className='headshot col-4'> */}
+                    <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/>
+                {/* </div> */}
+
+                    <p className='col-4'>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
+
+                    <p className='col-4'>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented, an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
                 </div>
             {/* Skills images */}
             <div class="container-fluid padding">            
@@ -75,13 +82,6 @@ export default function Main(props) {
                     </div>
                 </div>
             
-
-            <h2 className='main--header' id="interests">Interests</h2>
-                <p>Being outside. Skiing. Biking. Electronic music. Porch Gardening. Building React sites!</p>
-
-
-
-
     </main>
     )
 }
