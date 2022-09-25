@@ -5,24 +5,37 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 import sobieski from '../images/sobieski.jpg'
 import lavender from '../images/lavender/lavenderField.jpg'
+import lavenderParallax from '../images/lavender/lavenderFieldParallax.jpg'
 
 export default function Main(props) {
     const year = new Date().getFullYear();
 
     return(
-    <main>
-        <div className="intro-container">
+    <main id="page-top">
+        <div className="masthead">
             
-            <div className='row'>
-                <img src={lavender} alt="lavender field" id="lavender"/>
-            </div>
+            {/* <div className='row'> */}
+                {/* <img src={lavender} alt="lavender field" id="lavender"/> */}
+            {/* </div> */}
                 {/* <p>Front-End Developer</p> */}
                 {/* <Button className='resume-button'>Resume</Button> */}
-                <i className='fa fa-map-marker'><h4>Boston</h4></i>
-
+{/*  
+                <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Hello</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB.</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div> */}
             </div>
 
             <div className='buttons'>
+            {/* <i className='fa fa-map-marker'><h4>Boston</h4></i> */}
                 <ul className='social-media-buttons'>
                     <li><a role="button" href="mailto: strzelecki.monica7@gmail.com"><i className='fa fa-envelope' aria-hidden="true"></i></a></li>
                     <li><a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/monica-strzelecki/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>hello</a>{' '}</li>
@@ -36,12 +49,18 @@ export default function Main(props) {
                 <div className="row">
 
                 {/* <div className='headshot col-4'> */}
-                    <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/>
+                    {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
                 {/* </div> */}
 
-                    <p className='col-4'>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
+                    <p className='col-6'>I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB. </p>
 
-                    <p className='col-4'>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented, an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
+                    <p className='col-6'>I have 8+ years of professional experience in higher education in the U.K. and U.S.  As a former teacher, I'm accustomed to working with a variety of working styles, and I understand the importance of always learning and working in a team. I am detail-oriented, an avid learner, and enjoy freelance work while I search for my place in the world of web development. </p>
+                </div>
+
+                {/* Parallax image */}
+
+                <div className='parallax'>
+                    {/* <img src={lavenderParallax} /> */}
                 </div>
             {/* Skills images */}
             <div class="container-fluid padding">            
