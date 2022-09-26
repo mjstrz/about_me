@@ -23,8 +23,21 @@
   background-color: black;
 }
 
-h1, p, h2, h5, .buttons {
+h1, p, h5, .buttons {
   text-align: center;
+}
+
+h2 { 
+  text-align: center; 
+  font-size: 2rem;
+}
+
+hr.divider { 
+  height: 0.2rem;
+  max-width: 5rem;
+  margin: 1.5rem auto;
+  background-color: white;
+  opacity: 1;
 }
 
 .fa-map-marker {
@@ -184,10 +197,34 @@ a:hover {
 
 /* ABOUT styles */
 
-#about { 
-  padding-bottom: 1em;
+#about-header { 
+  padding-bottom: 0.5em;
+  font-size: 2rem;
+  color: white;
 }
 
+.about-section { 
+  padding: 8rem 0;
+  
+}
+
+#about-header, 
+.about-section, 
+.about-info, 
+.about-divider
+{
+  background-color: purple;
+}
+
+.bg-warning { 
+
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.about-info { 
+
+}
 /* TOGGLER styles */
 
 /* .toggler {

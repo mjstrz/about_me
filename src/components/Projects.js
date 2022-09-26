@@ -9,6 +9,7 @@ export default function Projects() {
 
     <div>
             <h2 id="projects-header">Projects</h2>
+            <hr class="divider divider-light" />
 
             <div className="projects">
             <CardGroup>
