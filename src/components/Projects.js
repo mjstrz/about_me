@@ -7,8 +7,8 @@ export default function Projects() {
     
     return(
 
-    <div>
-            <h2 id="projects-header">Projects</h2>
+    <div className='bg-secondary'>
+            <h2 id="projects-header bg-secondary">Projects</h2>
             <hr class="divider divider-light" />
 
             <div className="projects">

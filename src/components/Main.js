@@ -1,11 +1,11 @@
 import React from "react";
 // import Button from 'react-bootstrap/Button';
-import { Row, Col } from "reactstrap";
+import { Row, Col, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../App.css";
-import sobieski from "../images/sobieski.jpg";
+// import sobieski from "../images/sobieski.jpg";
 import lavender from "../images/lavender/lavenderField.jpg";
-import lavenderParallax from "../images/lavender/lavenderFieldParallax.jpg";
+// import lavenderParallax from "../images/lavender/lavenderFieldParallax.jpg";
 
 export default function Main(props) {
   const year = new Date().getFullYear();
@@ -13,24 +13,25 @@ export default function Main(props) {
   return (
     <main id="page-top">
       <div className="masthead">
-        {/* <div className='row'> */}
-        {/* <img src={lavender} alt="lavender field" id="lavender"/> */}
-        {/* </div> */}
-        {/* <p>Front-End Developer</p> */}
-        {/* <Button className='resume-button'>Resume</Button> */}
-        {/*  
-                <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Hello</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">I'm a dedicated developer who enjoys building high-quality responsive web and mobile apps. I recently completed a full-stack mobile and web development bootcamp focused on Bootstrap, React JS, React Native, Node.js and MongoDB.</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    </div>
-                </div>
-            </div> */}
+        <div class="container masthead-about px-4 px-lg-5 h-100">
+          <div class="row masthead-row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-8 align-self-end">
+              <h1 class="text-white font-weight-bold masthead-header">Hello</h1>
+              <hr class="divider" />
+            </div>
+            <div class="col-lg-8 masthead-about-text align-self-baseline">
+              <p class="text-white-75 mb-5">
+                I'm a dedicated developer who enjoys building high-quality
+                responsive web and mobile apps. I recently completed a
+                full-stack mobile and web development bootcamp focused on
+                Bootstrap, React JS, React Native, Node.js and MongoDB.
+              </p>
+              <a class="btn btn-primary btn-xl" href="#about">
+                Find Out More
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="buttons">
@@ -66,24 +67,24 @@ export default function Main(props) {
       <hr className="header-hr" />
 
       <section className="about-section bg-warning">
-        <h2 className="main--header" id="about-header" href="#about">
+        <h2 className="main--header bg-warning" id="about-header" href="#about">
           About Me
         </h2>
-        <div className="row about-divider">
+        <div className="row about-divider bg-warning">
           <hr class="divider divider-light" />
         </div>
-          {/* <div className='headshot col-4'> */}
-          {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
-          {/* </div> */}
-        <div className="row about-info">
-          <p className="col-6 about-info">
+        {/* <div className='headshot col-4'> */}
+        {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
+        {/* </div> */}
+        <div className="row about-info bg-warning">
+          <p className="col-6 about-info bg-warning">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack
             mobile and web development bootcamp focused on Bootstrap, React JS,
             React Native, Node.js and MongoDB.{" "}
           </p>
 
-          <p className="col-6 about-info">
+          <p className="col-6 about-info bg-warning">
             I have 8+ years of professional experience in higher education in
             the U.K. and U.S. As a former teacher, I'm accustomed to working
             with a variety of working styles, and I understand the importance of
