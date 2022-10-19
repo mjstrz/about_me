@@ -64,27 +64,27 @@ export default function Main(props) {
         </ul>
       </div>
 
-      <hr className="header-hr" />
+      {/* <hr className="header-hr" /> */}
 
-      <section className="about-section bg-warning">
-        <h2 className="main--header bg-warning" id="about-header" href="#about">
+      <section className="about-section">
+        <h2 className="main--header" id="about-header" href="#about">
           About Me
         </h2>
-        <div className="row about-divider bg-warning">
+        <div className="row about-divider">
           <hr class="divider divider-light" />
         </div>
         {/* <div className='headshot col-4'> */}
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
         {/* </div> */}
-        <div className="row about-info bg-warning">
-          <p className="col-6 about-info bg-warning">
+        <div className="row about-info">
+          <p className="col-6 about-info">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack
             mobile and web development bootcamp focused on Bootstrap, React JS,
             React Native, Node.js and MongoDB.{" "}
           </p>
 
-          <p className="col-6 about-info bg-warning">
+          <p className="col-6 about-info">
             I have 8+ years of professional experience in higher education in
             the U.K. and U.S. As a former teacher, I'm accustomed to working
             with a variety of working styles, and I understand the importance of
@@ -92,14 +92,14 @@ export default function Main(props) {
             learner, and enjoy freelance work while I search for my place in the
             world of web development.{" "}
           </p>
+
+        
         </div>
       </section>
 
-      {/* Parallax image */}
-
-      <div className="parallax">{/* <img src={lavenderParallax} /> */}</div>
+  
       {/* Skills images */}
-      <div class="container-fluid padding">
+      <div class="container-fluid padding skills-images">
         {/* <<div className="row"> */}
         <div class="col-3">
           {/* HTML5 svg */}
