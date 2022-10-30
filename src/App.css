@@ -305,6 +305,24 @@ a:hover {
 /* .about-info { 
 
 } */
+
+/* PROJECTS PAGE */
+
+#projects-header { 
+  padding-top: 5em;
+}
+
+.card {
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  /* margin-top: 5em; */
+} 
+
+.github-button {
+  margin-right: 0.5em;
+}
+
 /* TOGGLER styles */
 
 /* .toggler {
