@@ -292,6 +292,11 @@ a:hover {
   color: white;
 }
 
+.about-info { 
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
 .bg-warning { 
     --bs-bg-opacity: 1;
 }
@@ -318,6 +323,10 @@ a:hover {
   margin-bottom: 5em;
   /* margin-top: 5em; */
 } 
+
+.card-bottom { 
+  margin-top: 5em;
+}
 
 .github-button {
   margin-right: 0.5em;

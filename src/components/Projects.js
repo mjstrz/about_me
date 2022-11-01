@@ -30,8 +30,8 @@ export default function Projects() {
                 <CardText>
                   NuCamp portfolio assignment built using React JS.
                 </CardText>
-                <Button className="github-button">Live Site</Button>
-                <Button className="github-button">Code</Button>
+                <Button className="github-button" href="https://mjstrz.github.io/farine-react/">Live Site</Button>
+                <Button className="github-button" href="https://github.com/mjstrz/farine-react">Code</Button>
               </CardBody>
             </Card>
 
@@ -44,23 +44,22 @@ export default function Projects() {
                 width="%"
               />
               <CardBody>
-                <CardTitle tag="h5">Card title</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5">Meme Generator</CardTitle>
+                {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
-                </CardSubtitle>
+                </CardSubtitle> */}
                 <CardText>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  A fun meme generator built using React JS. 
                 </CardText>
-                <Button className="github-button">Live Site</Button>
-                <Button className="github-button">Code</Button>
+                <Button className="github-button" href="https://mjstrz.github.io/meme_generator/">Live Site</Button>
+                <Button className="github-button" href="https://github.com/mjstrz/meme_generator">Code</Button>
               </CardBody>
             </Card>
           </CardGroup>
 
           <CardGroup>
             {/* Card #3 */}
-            <Card className="col-6">
+            <Card className="col-6 card-bottom">
               <CardImg
                 alt="Card image cap"
                 src="https://picsum.photos/318/180"
@@ -68,22 +67,20 @@ export default function Projects() {
                 width="33%"
               />
               <CardBody>
-                <CardTitle tag="h5">Card title</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5">Tenzies</CardTitle>
+                {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
-                </CardSubtitle>
+                </CardSubtitle> */}
                 <CardText>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                  A fun game designed using React JS. 
                 </CardText>
-                <Button className="github-button">Live Site</Button>
-                <Button className="github-button">Code</Button>
+                <Button className="github-button" href="https://mjstrz.github.io/tenzies_game/">Live Site</Button>
+                <Button className="github-button" href="https://github.com/mjstrz/tenzies_game">Code</Button>
               </CardBody>
             </Card>
 
             {/* Card #4 */}
-            <Card className="col-6">
+            <Card className="col-6 card-bottom">
               <CardImg
                 alt="Card image cap"
                 src="https://picsum.photos/318/180"
@@ -91,17 +88,15 @@ export default function Projects() {
                 width="33%"
               />
               <CardBody>
-                <CardTitle tag="h5">Card title</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5">Black Jack</CardTitle>
+                {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
-                </CardSubtitle>
+                </CardSubtitle> */}
                 <CardText>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  A fun game designed using React JS. 
                 </CardText>
                 <Button className="github-button">Live Site</Button>
-                <Button className="github-button">Code</Button>
+                <Button className="github-button" href="https://github.com/mjstrz/blackjack_game">Code</Button>
               </CardBody>
             </Card>
           </CardGroup>
