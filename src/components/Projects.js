@@ -7,14 +7,13 @@ export default function Projects() {
 
     
     return (
-      <div className="projects-section">
-        <h2 id="projects-header">Projects</h2>
-        {/* <div class="row projects-header-divider">
-          <hr class="divider divider-light" />
-        </div> */}
-
-        
+      <section className="projects-section">       
         <div className="projects">
+        <h2 id="projects-header">Projects</h2>
+            <div class="row projects-header-divider">
+          <hr class="divider divider-light" />
+        </div>
+
           <CardGroup>
             {/* Card #1 */}
             <Card className="col-6">
@@ -104,6 +103,6 @@ export default function Projects() {
             </Card>
           </CardGroup>
         </div>
-      </div>
+      </section>
     );
 }

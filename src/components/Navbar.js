@@ -8,7 +8,7 @@ export default function Navigation(props){
             expand="lg" 
             class="fixed-top"
         >
-        <Container fluid id="main-nav" class="px-4 px-lg-5 fixed-top">
+        <Container fluid id="main-nav" class="px-4 px-lg-5 fixed-top nav-container">
             
             <a class="navbar-brand" href='#page-top'>Monica Strzelecki</a>
                 <Navbar.Toggle aria-controls="main-nav" id="nav-toggle" />

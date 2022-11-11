@@ -88,8 +88,8 @@ h2 {
 
 hr.divider { 
   height: 0.2rem;
-  max-width: 5rem;
-  margin: 1.5rem auto;
+  max-width: 8rem;
+  margin: 1.7rem auto;
   background-color: white;
   opacity: 1;
 }
@@ -161,6 +161,7 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-wrap: inherit;
+  background-color: cornsilk;
 }
 
 @media (min-width: 992px) {
@@ -215,6 +216,7 @@ main {
   white-space: nowrap;
   padding: 0;
   margin: 0;
+  background-color: cornsilk;
  }
  
  #main-nav a {
@@ -241,6 +243,7 @@ main {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: cornsilk;
   
 }
 
@@ -265,6 +268,16 @@ a:hover {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  background-color: cornsilk;
+}
+
+.nav-toggle, 
+.navbar-collapse, 
+.nav-link, 
+.main-na, 
+.navbar-toggler-icon, 
+.nav-container { 
+  background-color: cornsilk;
 }
 
 /* ABOUT styles */
@@ -531,22 +544,28 @@ a {
 
 .card-bottom { 
   margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 
 .projects { 
-  padding-bottom: 2em;
+  padding-bottom: 10em;
   padding-top: 1em;
   background-color: indigo;
 }
 
+.projects-section { 
+  padding-bottom: 2em;
+  background-color: indigo;
+}
+
 .row.projects-header-divider, 
-.project-sections {
+.project-section {
   width: 100%;
 }
 
 #projects-header,
-.project-sections, 
+.project-section, 
 .projects-header-divider, 
 .card-group, 
 .card-body, 
