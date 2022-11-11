@@ -1,6 +1,7 @@
 * {
   /* box-sizing: border-box; */
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #F2E7FF;
   /* color: navy; */
 }
 
@@ -142,7 +143,7 @@ hr.divider {
 main { 
   /* padding: 100px 27px; */
   flex: 1 1 auto;
-  background-color: cornsilk;
+  background-color: #F2E7FF;
   color: #2B283A;
 }
 
@@ -309,27 +310,6 @@ a:hover {
   padding-top: 2em;
 } */
 
-/* .about-info { 
-
-} */
-
-/* PROJECTS PAGE */
-
-#projects-header { 
-  padding-top: 5em;
-}
-
-.card {
-  margin-right: 5em;
-  margin-left: 5em;
-  margin-bottom: 5em;
-  /* margin-top: 5em; */
-} 
-
-.card-bottom { 
-  margin-top: 5em;
-}
-
 .github-button {
   margin-right: 0.5em;
 }
@@ -478,43 +458,24 @@ line-height: 16px; */
   align-items: center; 
   padding-top: 3em;
   justify-content: center;
+  background-color: #F2E7FF;
 }
 
 .social-media-buttons {
   display: flex;
+  background-color: #F2E7FF;
 }
 
-li {
+.buttons li {
   text-decoration: none;
   list-style-type: none;
   padding-right: 5em;
-  color:rgba(0, 0, 0, 0.25)
+  color:rgba(0, 0, 0, 0.25);
+  background-color: #F2E7FF;
 }
 
 a {
   color: black;
-}
-
-footer { 
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-.footer-hr, .header-hr {
- 
-    border-top: 2px solid #b4b4b4;
-    width: 100%;
-    margin-top: 0.3rem;
-    margin-bottom: 1rem;
-
-}
-
-jumbotron {
-  background-color: black;
-}
-
-.fa-map-marker {
-  justify-content: center;
 }
 
 /* Parallax */
@@ -533,6 +494,8 @@ jumbotron {
   background-size: cover; */
 /* } */
 
+
+
 /* Skills images */
 
 .container-fluid {
@@ -540,22 +503,86 @@ jumbotron {
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  padding-top: 2em; 
   margin-right: auto;
   margin-left: auto;  
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 2em; 
+  padding-bottom: 2em;
 }
 
-.padding {
+/* .padding {
   padding-bottom: 1rem;
+} */
+
+
+/* PROJECTS PAGE STYLES */
+
+#projects-header { 
+  padding-top: 5em;
 }
 
-/* Projects card section */
+.card {
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  /* margin-top: 5em; */
+} 
+
+.card-bottom { 
+  margin-top: 5em;
+}
+
 
 .projects { 
   padding-bottom: 2em;
   padding-top: 1em;
+  background-color: indigo;
+}
+
+.row.projects-header-divider, 
+.project-sections {
+  width: 100%;
+}
+
+#projects-header,
+.project-sections, 
+.projects-header-divider, 
+.card-group, 
+.card-body, 
+.card-title,
+.card-text { 
+  background-color: indigo;
+  color: white;
+}
+
+/* FOOTER STYLES */
+
+footer { 
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  background-color: #F2E7FF;
+}
+
+.footer-hr, .header-hr {
+ 
+    /* border-top: 2px solid #b4b4b4; */
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    height: 0.2rem;
+    max-width: 5rem;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 1;
+}
+
+.footer-hr, .site-footer, .footer h5  {
+  background-color: #F2E7FF;
+}
+
+.fa-map-marker {
+  justify-content: center;
 }
 
 

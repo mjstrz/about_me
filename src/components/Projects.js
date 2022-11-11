@@ -9,8 +9,11 @@ export default function Projects() {
     return (
       <div className="projects-section">
         <h2 id="projects-header">Projects</h2>
-        <hr class="divider divider-light" />
+        {/* <div class="row projects-header-divider">
+          <hr class="divider divider-light" />
+        </div> */}
 
+        
         <div className="projects">
           <CardGroup>
             {/* Card #1 */}
