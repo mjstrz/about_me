@@ -102,6 +102,8 @@ hr.divider {
   color: black;
 }
 
+/* MASTHEAD STYLES */
+
 .masthead { 
   padding-top: 10rem;
   /* padding-bottom: calc(10rem - 4.5rem); */
@@ -116,24 +118,24 @@ hr.divider {
 
 .masthead-row, 
 .masthead-about,
-.masthead-header { 
+.masthead-header,
+.hello-box, 
+.masthead-about-text, 
+.masthead-text-box { 
   background-color: transparent;
 }
 
-.masthead-about-text {
- opacity: 0.5;
+.masthead-text-box {
+  color: white;
+  opacity: 0.8;
 }
 
 .masthead-header {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #lavender { 
   opacity: 0.9;
-}
-
-#sobieski { 
-  border: 1px solid black;
 }
 
 
