@@ -142,6 +142,7 @@ hr.divider {
 .btn-masthead { 
   background-color: rebeccapurple;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
@@ -323,10 +324,23 @@ a:hover {
 }
 
 .btn-about { 
+  display: block;
   background-color: cornsilk;
   color: indigo;
   font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
+
+/* .about-button-div { 
+  margin-top: 2em;
+  width: 100%
+} */
+
+
 
 /* SKILLS IMAGES */
 
@@ -336,6 +350,7 @@ a:hover {
 
 .github-button {
   margin-right: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* TOGGLER styles */

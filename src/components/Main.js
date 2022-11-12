@@ -1,6 +1,6 @@
 import React from "react";
-// import Button from 'react-bootstrap/Button';
-import { Row, Col, Button } from "reactstrap";
+import Button from 'react-bootstrap/Button';
+import { Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../App.css";
 // import sobieski from "../images/sobieski.jpg";
@@ -76,15 +76,15 @@ export default function Main(props) {
         {/* <div className='headshot col-4'> */}
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
         {/* </div> */}
-        <div className="row about-info col-lg-8 ">
-          <p className="col-6 about-info">
+        <div className="row about-info col-lg-8">
+          <p className="about-info">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack
             mobile and web development bootcamp focused on Bootstrap, React JS,
             React Native, Node.js and MongoDB.{" "}
           </p>
 
-          <p className="col-6 about-info">
+          <p className="about-info">
             I have 8+ years of professional experience in higher education in
             the U.K. and U.S. As a former teacher, I'm accustomed to working
             with a variety of working styles, and I understand the importance of
@@ -93,15 +93,15 @@ export default function Main(props) {
             world of web development.{" "}
           </p>
 
-          <div className="col-lg-8 masthead-about-text align-self-baseline">
-              <a class="btn btn-about" href="#about">
+          {/* <div className="about-button-div align-self-baseline"> */}
+              <Button class="btn-about col-2" href="#about">
                     My Experience
-              </a>
-          </div>
+              </Button>
+          {/* </div> */}
         
         </div>
 
-        
+         
       </section>
 
   
