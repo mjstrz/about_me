@@ -139,6 +139,11 @@ hr.divider {
   opacity: 0.9;
 }
 
+.btn-masthead { 
+  background-color: rebeccapurple;
+  color: white;
+}
+
 
 main { 
   /* padding: 100px 27px; */
@@ -275,8 +280,8 @@ a:hover {
 .navbar-collapse, 
 .nav-link, 
 .main-na, 
-.navbar-toggler-icon, 
-.nav-container { 
+.navbar-toggler-icon,  
+.navbar { 
   background-color: cornsilk;
 }
 
@@ -315,6 +320,12 @@ a:hover {
 
 .bg-warning { 
     --bs-bg-opacity: 1;
+}
+
+.btn-about { 
+  background-color: cornsilk;
+  color: indigo;
+  font-weight: bold;
 }
 
 /* SKILLS IMAGES */

@@ -26,8 +26,8 @@ export default function Main(props) {
                 full-stack mobile and web development bootcamp focused on
                 Bootstrap, React JS, React Native, Node.js and MongoDB.
               </p>
-              <a class="btn btn-primary btn-xl" href="#about">
-                Find Out More
+              <a class="btn btn-xl btn-masthead" href="#about">
+                What I know
               </a>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Main(props) {
         {/* <div className='headshot col-4'> */}
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
         {/* </div> */}
-        <div className="row about-info">
+        <div className="row about-info col-lg-8 ">
           <p className="col-6 about-info">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack
@@ -93,8 +93,15 @@ export default function Main(props) {
             world of web development.{" "}
           </p>
 
+          <div className="col-lg-8 masthead-about-text align-self-baseline">
+              <a class="btn btn-about" href="#about">
+                    My Experience
+              </a>
+          </div>
         
         </div>
+
+        
       </section>
 
   
