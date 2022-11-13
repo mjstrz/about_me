@@ -1,7 +1,10 @@
 import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardDeck, CardTitle, Row, Col, CardBody, CardText, CardGroup, CardSubtitle, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { farineLogo } from '../images/Farine_logo2.png';
+import farineLogo from '../images/Farine_logo2.png';
+import memeLogo from '../images/memeEmoji.jpg';
+import blackJack from '../images/Blackjack-21_v2.jpg';
+import tenzies from '../images/tenziesDice.jpg';
 
 export default function Projects() { 
 
@@ -17,9 +20,10 @@ export default function Projects() {
           <CardGroup>
             {/* Card #1 */}
             <Card className="col-6">
-              <CardImg
+              <CardImg 
+                classname="farine-logo"
                 alt="Farine cafe logo"
-                // src={farineLogo}
+                src={farineLogo}
                 top
                 width="33%"
               />
@@ -41,7 +45,7 @@ export default function Projects() {
             <Card className="col-6">
               <CardImg
                 alt="Card image cap"
-                src="https://picsum.photos/318/180"
+                src={memeLogo}
                 top
                 width="%"
               />
@@ -64,7 +68,7 @@ export default function Projects() {
             <Card className="col-6 card-bottom">
               <CardImg
                 alt="Card image cap"
-                src="https://picsum.photos/318/180"
+                src={tenzies}
                 top
                 width="33%"
               />
@@ -85,7 +89,7 @@ export default function Projects() {
             <Card className="col-6 card-bottom">
               <CardImg
                 alt="Card image cap"
-                src="https://picsum.photos/318/180"
+                src={blackJack}
                 top
                 width="33%"
               />

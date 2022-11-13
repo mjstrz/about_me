@@ -562,15 +562,20 @@ a {
 }
 
 .card {
-  margin-right: 5em;
-  margin-left: 5em;
+  margin-right: 10em;
+  margin-left: 10em;
   margin-bottom: 5em;
   /* margin-top: 5em; */
+  border-style: none;
 } 
 
 .card-bottom { 
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+.farine-logo { 
+  height: 80%
 }
 
 
