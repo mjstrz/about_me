@@ -14,10 +14,10 @@ export default function Navigation(props){
                 <Navbar.Toggle aria-controls="main-nav" id="nav-toggle" />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#resume">Resume</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/resume">Resume</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
                         {/* <ul className='nav-links col-6'>
                             <li><a href="#about">About</a></li>
                             <li><a href="#projects">Projects</a></li>

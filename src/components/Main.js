@@ -94,13 +94,14 @@ export default function Main(props) {
           </p>
 
           {/* <div className="about-button-div align-self-baseline"> */}
-              <Button class="btn-about col-2" href="#about">
-                    My Experience
-              </Button>
+  
           {/* </div> */}
         
         </div>
 
+        <Button class="btn-about col-xs-12 col-lg-4 col-xl-2 mt-4" href="/projects">
+                    My Experience
+              </Button>
          
       </section>
 
