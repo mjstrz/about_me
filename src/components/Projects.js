@@ -66,20 +66,20 @@ export default function Projects() {
             <Card className="col-4">
               <CardImg
                 alt="Card image cap"
-                src={blackJack}
+                src={farineLogo}
                 top
                 width="33%"
               />
               <CardBody>
-                <CardTitle tag="h5">Black Jack</CardTitle>
+                <CardTitle tag="h5">Farine Bakery & Cafe [Bootstrap]</CardTitle>
                 {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
                 <CardText>
-                  A fun game designed using React JS. 
+                  My NuCamp Portfolio assignment created using Bootstrap.
                 </CardText>
                 <Button className="github-button">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/blackjack_game">Code</Button>
+                <Button className="github-button" href="https://github.com/mjstrz/farine-bootstrap-updated">Code</Button>
               </CardBody>
             </Card>
 
