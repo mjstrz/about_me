@@ -71,7 +71,7 @@ export default function Main(props) {
           About Me
         </h2>
         <div className="row about-divider">
-          <hr class="divider divider-light" />
+          {/* <hr class="divider divider-light" /> */}
         </div>
         {/* <div className='headshot col-4'> */}
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}

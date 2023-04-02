@@ -88,6 +88,10 @@ h1, p, h5, .buttons {
 h2 { 
   text-align: center; 
   font-size: 2rem;
+  font-weight: bold;
+  /* text-decoration: underline;
+  text-decoration-style:wavy; */
+  padding-bottom: 2em;
 }
 
 hr.divider { 
