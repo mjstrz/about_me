@@ -145,6 +145,10 @@ hr.divider {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.btn-masthead:hover {
+  color: cornsilk;
+}
+
 
 main { 
   /* padding: 100px 27px; */
@@ -315,8 +319,8 @@ a:hover {
 }
 
 .about-info { 
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 14em;
+  padding-right: 14em;
 }
 
 .bg-warning { 

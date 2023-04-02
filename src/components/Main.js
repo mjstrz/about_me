@@ -85,12 +85,16 @@ export default function Main(props) {
           </p>
 
           <p className="about-info">
-            I have 8+ years of professional experience in higher education in
+            I have 9+ years of professional experience in higher education in
             the U.K. and U.S. As a former teacher, I'm accustomed to working
             with a variety of working styles, and I understand the importance of
             always learning and working in a team. I am detail-oriented, an avid
             learner, and enjoy freelance work while I search for my place in the
             world of web development.{" "}
+          </p>
+
+          <p className="about-info">
+            When I'm not coding, I enjoy being on the move, whether it's in the form of cycling, skiing, walking or shuffling. On a rainy day, you can catch me perusing the foreign language category on Netflix. 
           </p>
 
           {/* <div className="about-button-div align-self-baseline"> */}
