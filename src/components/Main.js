@@ -16,7 +16,7 @@ export default function Main(props) {
         <div class="container masthead-about px-4 px-lg-5 h-100">
           <div class="row masthead-row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end hello-box">
-              <h1 class="text-white font-weight-bold masthead-header">Hello</h1>
+              <h1 class="text-white font-weight-bold masthead-header">Hello!</h1>
               <hr class="divider" />
             </div>
             <div class="col-lg-8 masthead-about-text align-self-baseline">
