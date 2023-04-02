@@ -10,7 +10,7 @@ export default function Projects() {
 
     
     return (
-      <section className="projects-section">       
+      <section className="projects-section" id="#projects">       
         <div className="projects">
         <h2 id="projects-header">Projects</h2>
             <div class="row projects-header-divider">
