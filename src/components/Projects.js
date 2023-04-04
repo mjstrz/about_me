@@ -20,7 +20,7 @@ export default function Projects() {
 
           <CardGroup>
             {/* Card #1 */}
-            <Card className="col-4">
+            <Card className="col-4 col-xs-1">
               <CardImg 
                 classname="farine-logo"
                 alt="Farine cafe logo"
@@ -35,7 +35,7 @@ export default function Projects() {
                   tag="h6"
                 ></CardSubtitle>
                 <CardText>
-                  A NuCamp portfolio assignment built using React JS.
+                  A cozy and quaint cat cafe site I created for a NuCamp portfolio assignment, built using React JS.
                 </CardText>
                 <Button className="github-button" href="https://mjstrz.github.io/farine-react/">Live Site</Button>
                 <Button className="github-button" href="https://github.com/mjstrz/farine-react">Code</Button>
@@ -43,7 +43,7 @@ export default function Projects() {
             </Card>
 
             {/*Card #2  */}
-            <Card className="col-4">
+            <Card className="col-4 col-xs-1">
               <CardImg
                 alt="Card image cap"
                 src={Lavender}
@@ -56,7 +56,7 @@ export default function Projects() {
                   Card subtitle
                 </CardSubtitle> */}
                 <CardText>
-                  Feel free to check out my code for making this portfolio site come to life. 
+                  Feel free to check out my code for making this portfolio site come to life, created using React JS. 
                 </CardText>
                 {/* <Button className="github-button" href="https://mjstrz.github.io/meme_generator/">Live Site</Button> */}
                 <Button className="github-button" href="https://github.com/mjstrz/about_me">Code</Button>
@@ -76,7 +76,7 @@ export default function Projects() {
                   Card subtitle
                 </CardSubtitle> */}
                 <CardText>
-                  My NuCamp Portfolio assignment created using Bootstrap.
+                  My cat cafe NuCamp Portfolio assignment that I initially created using Bootstrap.
                 </CardText>
                 <Button className="github-button">Live Site</Button>
                 <Button className="github-button" href="https://github.com/mjstrz/farine-bootstrap-updated">Code</Button>
@@ -87,7 +87,7 @@ export default function Projects() {
 
           <CardGroup>
             {/* Card #3 */}
-            <Card className="col-6 card-bottom">
+            <Card className="col-6 col-xs-1 card-bottom">
               <CardImg
                 alt="Card image cap"
                 src={memeLogo}
