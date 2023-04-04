@@ -350,6 +350,13 @@ a:hover {
   text-decoration: none;
 }
 
+@media (max-width: 1250px) {
+  .about-info {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+
 /* .about-button-div { 
   margin-top: 2em;
   width: 100%
