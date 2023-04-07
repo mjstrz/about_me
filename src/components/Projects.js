@@ -37,8 +37,8 @@ export default function Projects() {
                 <CardText>
                   A cozy and quaint cat cafe site I created for a NuCamp portfolio assignment, built using React JS.
                 </CardText>
-                <Button className="github-button" href="https://mjstrz.github.io/farine-react/">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/farine-react">Code</Button>
+                <Button className="github-button" target="_blank" href="https://mjstrz.github.io/farine-react/">Live Site</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/farine-react">Code</Button>
               </CardBody>
             </Card>
 
@@ -59,7 +59,7 @@ export default function Projects() {
                   Feel free to check out my code for making this portfolio site come to life, created using React JS. 
                 </CardText>
                 {/* <Button className="github-button" href="https://mjstrz.github.io/meme_generator/">Live Site</Button> */}
-                <Button className="github-button" href="https://github.com/mjstrz/about_me">Code</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/about_me">Code</Button>
               </CardBody>
             </Card>
 
@@ -78,8 +78,8 @@ export default function Projects() {
                 <CardText>
                   My cat cafe NuCamp Portfolio assignment that I initially created using Bootstrap.
                 </CardText>
-                <Button className="github-button">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/farine-bootstrap-updated">Code</Button>
+                <Button className="github-button" target="_blank" >Live Site</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/farine-bootstrap-updated">Code</Button>
               </CardBody>
             </Card>
 
@@ -102,8 +102,8 @@ export default function Projects() {
                 <CardText>
                   A fun meme generator built using React JS. 
                 </CardText>
-                <Button className="github-button" href="https://mjstrz.github.io/meme_generator/">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/meme_generator">Code</Button>
+                <Button className="github-button" target="_blank" href="https://mjstrz.github.io/meme_generator/">Live Site</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/meme_generator">Code</Button>
               </CardBody>
             </Card>
 
@@ -127,8 +127,8 @@ export default function Projects() {
                 <CardText>
                   A fun game designed using React JS. 
                 </CardText>
-                <Button className="github-button" href="https://mjstrz.github.io/tenzies_game/">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/tenzies_game">Code</Button>
+                <Button className="github-button" target="_blank" href="https://mjstrz.github.io/tenzies_game/">Live Site</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/tenzies_game">Code</Button>
               </CardBody>
             </Card>
 
@@ -149,8 +149,8 @@ export default function Projects() {
                 <CardText>
                   A fun game designed using React JS. 
                 </CardText>
-                <Button className="github-button">Live Site</Button>
-                <Button className="github-button" href="https://github.com/mjstrz/blackjack_game">Code</Button>
+                <Button className="github-button" target="_blank">Live Site</Button>
+                <Button className="github-button" target="_blank" href="https://github.com/mjstrz/blackjack_game">Code</Button>
               </CardBody>
             </Card>
 
