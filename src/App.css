@@ -9,6 +9,21 @@ html {
   scroll-behavior: smooth;
 }
 
+/* SCROLLING ANIMATION */
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/*  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

@@ -7,6 +7,27 @@ import "../App.css";
 import lavender from "../images/lavender/lavenderField.jpg";
 // import lavenderParallax from "../images/lavender/lavenderFieldParallax.jpg";
 
+
+// adds scrolling animation 
+function reveal() {
+  const reveals = document.querySelectorAll(".reveal");
+  for (let i = 0; i < reveals.length; i++) {
+    let windowHeight = window.innerHeight; // gives the height of the viewport
+    let elementTop = reveals[i].getBoundingClientRect().top; // gives the distance from the top of the viewport
+    let elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
+
 export default function Main(props) {
   const year = new Date().getFullYear();
 
@@ -39,7 +60,9 @@ export default function Main(props) {
         <ul className="social-media-buttons">
           <li>
             <a role="button" href="mailto: strzelecki.monica7@gmail.com">
-              <i className="fa fa-envelope" aria-hidden="true"></i>
+            {/* <i className="fa-sharp fa-solid fa-envelope" size="lg" /> */}
+              <i className="fa fa-envelope" size="lg" aria-hidden="true"></i>
+              <i class="fa-sharp fa-light fa-at"></i>
             </a>
           </li>
           <li>
@@ -67,7 +90,7 @@ export default function Main(props) {
       {/* <hr className="header-hr" /> */}
 
       <section className="about-section">
-        <h2 className="main--header" id="about-header" href="#about">
+        <h2 className="main--header reveal" id="about-header" href="#about">
           About Me
         </h2>
         <div className="row about-divider">
@@ -76,7 +99,7 @@ export default function Main(props) {
         {/* <div className='headshot col-4'> */}
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
         {/* </div> */}
-        <div className="row about-info col-lg-8">
+        <div className="row about-info col-lg-8 reveal">
           <p className="about-info">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack

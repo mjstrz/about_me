@@ -7,20 +7,41 @@ import blackJack from '../images/Blackjack-21_v2.jpg';
 import tenzies from '../images/tenziesDice.jpg';
 import Lavender from '../images/lavender/lavenderFieldParallax.jpg'
 
+
+// adds scrolling animation 
+function reveal() {
+  const reveals = document.querySelectorAll(".reveal");
+  for (let i = 0; i < reveals.length; i++) {
+    let windowHeight = window.innerHeight; // gives the height of the viewport
+    let elementTop = reveals[i].getBoundingClientRect().top; // gives the distance from the top of the viewport
+    let elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
+
 export default function Projects() { 
 
     
     return (
       <section className="projects-section" id="#projects">       
         <div className="projects">
-        <h2 id="projects-header">Projects</h2>
-            <div class="row projects-header-divider">
+        <h2 id="projects-header" className='reveal'>Projects</h2>
+            {/* <div class="row projects-header-divider"> */}
           {/* <hr class="divider divider-light" /> */}
-        </div>
+        {/* </div> */}
 
           <CardGroup>
             {/* Card #1 */}
-            <Card className="col-4 col-xs-1">
+            <Card className="col-4 col-xs-1 reveal">
               <CardImg 
                 classname="farine-logo"
                 alt="Farine cafe logo"
@@ -43,7 +64,7 @@ export default function Projects() {
             </Card>
 
             {/*Card #2  */}
-            <Card className="col-4 col-xs-1">
+            <Card className="col-4 col-xs-1 reveal">
               <CardImg
                 alt="Card image cap"
                 src={Lavender}
@@ -63,7 +84,7 @@ export default function Projects() {
               </CardBody>
             </Card>
 
-            <Card className="col-4">
+            <Card className="col-4 reveal">
               <CardImg
                 alt="Card image cap"
                 src={farineLogo}
@@ -87,7 +108,7 @@ export default function Projects() {
 
           <CardGroup>
             {/* Card #3 */}
-            <Card className="col-6 col-xs-1 card-bottom">
+            <Card className="col-6 col-xs-1 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={memeLogo}
@@ -112,7 +133,7 @@ export default function Projects() {
 
             {/* Card #5 */}
 
-            <Card className="col-6 card-bottom">
+            <Card className="col-6 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={tenzies}
@@ -134,7 +155,7 @@ export default function Projects() {
 
             {/* Card #6 */}
 
-            <Card className="col-6 card-bottom">
+            <Card className="col-6 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={blackJack}
