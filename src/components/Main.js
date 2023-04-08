@@ -23,17 +23,26 @@ function reveal() {
   }
 }
 
+console.log(reveal);
+
 window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 reveal();
+
+let masthead = document.querySelector('.masthead')
+
+// console.log(masthead)
+
+masthead.addEventListener('onload', reveal);
+
 
 export default function Main(props) {
   const year = new Date().getFullYear();
 
   return (
     <main id="page-top">
-      <div className="masthead">
+      <div className="masthead" onLoad={reveal}>
         <div class="container masthead-about px-4 px-lg-5 h-100">
           <div class="row masthead-row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end hello-box">
@@ -134,7 +143,7 @@ export default function Main(props) {
 
   
       {/* Skills images */}
-      <div class="container-fluid padding skills-images">
+      <div class="container-fluid padding skills-images reveal">
         {/* <<div className="row"> */}
         <div class="col-3">
           {/* HTML5 svg */}
