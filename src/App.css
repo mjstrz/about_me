@@ -183,7 +183,8 @@ main {
 }
 
 
-/* NAV */
+/* NAVIGATION */
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -314,6 +315,12 @@ a:hover {
 .navbar-toggler-icon,  
 .navbar { 
   background-color: cornsilk;
+  
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
 }
 
 /* ABOUT styles */
