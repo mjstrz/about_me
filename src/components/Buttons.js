@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Buttons() {
     return (
-        <div className="buttons">
+        <div className="buttons" id="contact">
 {/* <i className='fa fa-map-marker'><h4>Boston</h4></i> */}
 <ul className="social-media-buttons">
   <li>

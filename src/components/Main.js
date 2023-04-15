@@ -3,10 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../App.css";
-// import sobieski from "../images/sobieski.jpg";
 import lavender from "../images/lavender/lavenderField.jpg";
-// import lavenderParallax from "../images/lavender/lavenderFieldParallax.jpg";
-
 
 // adds scrolling animation 
 function reveal() {
