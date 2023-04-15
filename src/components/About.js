@@ -14,12 +14,12 @@ export default function About() {
         {/* <img src={sobieski} alt="something goes here" id='sobieski' className='col-4'/> */}
         {/* </div> */}
         <div className="row about-info col-lg-8 reveal">
-          <p className="about-info">
+          {/* <p className="about-info">
             I'm a dedicated developer who enjoys building high-quality
             responsive web and mobile apps. I recently completed a full-stack
             mobile and web development bootcamp focused on Bootstrap, React JS,
             React Native, Node.js and MongoDB.{" "}
-          </p>
+          </p> */}
 
           <p className="about-info">
             I have 9+ years of professional experience in higher education in
@@ -40,7 +40,7 @@ export default function About() {
         
         </div>
 
-        <Button class="btn-about col-xs-12 col-lg-4 col-xl-2 mt-4" href="/projects">
+        <Button class="btn-about col-xs-12 col-lg-4 col-xl-2 mt-4" href="#projects">
                     My Experience
               </Button>
          

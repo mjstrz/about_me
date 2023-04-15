@@ -57,8 +57,8 @@ export default function Main(props) {
                 full-stack mobile and web development bootcamp focused on
                 Bootstrap, React JS, React Native, Node.js and MongoDB.
               </p>
-              <a class="btn btn-xl btn-masthead" href="#about">
-                What I know
+              <a class="btn btn-xl btn-masthead" href="#about-section">
+                My Background
               </a>
             </div>
           </div>

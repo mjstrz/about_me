@@ -4,7 +4,7 @@ import React from 'react';
 export default function Skills() {
     return(
         //   {/* Skills images */}
-<div class="container-fluid padding skills-images reveal">
+<div class="container-fluid padding skills-images reveal" id="skills">
 {/* <<div className="row"> */}
 <div class="col-3">
   {/* HTML5 svg */}
