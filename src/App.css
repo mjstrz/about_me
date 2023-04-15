@@ -332,7 +332,11 @@ a:hover {
 }
 
 .about-section { 
-  padding: 8rem 0;
+  padding: 15rem 0;
+  background-color: indigo;
+}
+
+.about-row {
   background-color: indigo;
 }
 
@@ -361,15 +365,27 @@ a:hover {
 }
 
 .btn-about { 
-  display: block;
+  display: inline-block;
   background-color: cornsilk;
   color: indigo;
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-about:hover {
+  font-weight: bold;
+}
+
+.about-row {
+  display: flex;
+  justify-content: center;
+  
 }
 
 @media (max-width: 1250px) {
@@ -539,7 +555,7 @@ line-height: 16px; */
 .buttons { 
   display: flex;
   align-items: center; 
-  padding-top: 3em;
+  padding: 7rem 0;
   justify-content: center;
   background-color: #F2E7FF;
 }
