@@ -626,6 +626,8 @@ a {
   margin-left: 10em;
   margin-bottom: 5em;
   /* margin-top: 5em; */
+  display: flex;
+  align-items: center;
   border-style: none;
 } 
 
@@ -643,11 +645,15 @@ a {
   padding-bottom: 10em;
   padding-top: 1em;
   background-color: indigo;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .projects-section { 
   padding-bottom: 2em;
   background-color: indigo;
+  display: flex;
 }
 
 .row.projects-header-divider, 
@@ -666,6 +672,7 @@ a {
   color: white;
 }
 
+
 @media (max-width: 1000px) {
   .github-button {
     margin: 0.25em;
@@ -673,6 +680,13 @@ a {
 
   .card {
     border-style: none;
+  }
+
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 }
 

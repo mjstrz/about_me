@@ -40,8 +40,9 @@ export default function Projects() {
         {/* </div> */}
 
           <CardGroup>
+          {/* <row> */}
             {/* Card #1 */}
-            <Card className="col-4 col-xs-1 reveal">
+            <Card className="col-md-4 reveal">
               <CardImg 
                 classname="farine-logo"
                 alt="Farine cafe logo"
@@ -64,7 +65,7 @@ export default function Projects() {
             </Card>
 
             {/*Card #2  */}
-            <Card className="col-4 col-xs-1 reveal">
+            <Card className="col-md-4 reveal">
               <CardImg
                 alt="Card image cap"
                 src={Lavender}
@@ -83,8 +84,10 @@ export default function Projects() {
                 <Button className="github-button" target="_blank" href="https://github.com/mjstrz/about_me">Code</Button>
               </CardBody>
             </Card>
-
-            <Card className="col-4 reveal">
+            </CardGroup>
+            
+            <CardGroup>
+            <Card className="col-md-4 col-1 reveal">
               <CardImg
                 alt="Card image cap"
                 src={farineLogo}
@@ -104,16 +107,16 @@ export default function Projects() {
               </CardBody>
             </Card>
 
-          </CardGroup>
+          {/* </CardGroup> */}
 
-          <CardGroup>
+          {/* <CardGroup> */}
             {/* Card #3 */}
-            <Card className="col-6 col-xs-1 card-bottom reveal">
+            <Card className="col-md-4 col-1 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={memeLogo}
                 top
-                width="%"
+                width="33%"
               />
               <CardBody>
                 <CardTitle tag="h5">Meme Generator</CardTitle>
@@ -127,13 +130,14 @@ export default function Projects() {
                 <Button className="github-button" target="_blank" href="https://github.com/mjstrz/meme_generator">Code</Button>
               </CardBody>
             </Card>
+            </CardGroup>
 
             {/* Card #4 */}
             
 
             {/* Card #5 */}
-
-            <Card className="col-6 card-bottom reveal">
+            <CardGroup>
+            <Card className="col-md-4 col-1 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={tenzies}
@@ -155,7 +159,7 @@ export default function Projects() {
 
             {/* Card #6 */}
 
-            <Card className="col-6 card-bottom reveal">
+            <Card className="col-md-4 col-1 card-bottom reveal">
               <CardImg
                 alt="Card image cap"
                 src={blackJack}
@@ -174,7 +178,7 @@ export default function Projects() {
                 <Button className="github-button" target="_blank" href="https://github.com/mjstrz/blackjack_game">Code</Button>
               </CardBody>
             </Card>
-
+            {/* </row> */}
           </CardGroup>
         </div>
       </section>
