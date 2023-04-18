@@ -684,6 +684,15 @@ a {
 
   .card-group {
     display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+    .card-group {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;

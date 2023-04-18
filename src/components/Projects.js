@@ -51,10 +51,11 @@ export default function Projects() {
         {/* <hr class="divider divider-light" /> */}
         {/* </div> */}
 
+
         <CardGroup>
           {/* <row> */}
           {/* Card #1 */}
-          <Card className="col-md-4 reveal">
+          <Card className="col-md-4 col-xs-1 reveal">
             <CardImg
               classname="farine-logo"
               alt="Farine cafe logo"
@@ -90,7 +91,7 @@ export default function Projects() {
           </Card>
 
           {/*Card #2  */}
-          <Card className="col-md-4 reveal">
+          <Card className="col-md-4 col-xs-1 reveal">
             <CardImg alt="Lavender field" src={Lavender} top width="%" />
             <CardBody>
               <CardTitle tag="h5">This Portfolio Site</CardTitle>
@@ -114,7 +115,7 @@ export default function Projects() {
         </CardGroup>
 
         <CardGroup>
-          <Card className="col-md-4 mt-5 card-bottom reveal">
+          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg
               alt="Farine cat cafe logo"
               src={farineLogo}
@@ -147,7 +148,7 @@ export default function Projects() {
 
           {/* <CardGroup> */}
           {/* Card #3 */}
-          <Card className="col-md-4 mt-5 card-bottom reveal">
+          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg alt="Three different emoji faces" src={memeLogo} top width="33%" />
             <CardBody>
               <CardTitle tag="h5">Meme Generator</CardTitle>
@@ -177,7 +178,7 @@ export default function Projects() {
 
         {/* Card #5 */}
         <CardGroup>
-          <Card className="col-md-4 card-bottom reveal">
+          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg alt="6 die on a black tabletop" src={tenzies} top width="33%" />
             <CardBody>
               <CardTitle tag="h5">Tenzies</CardTitle>
@@ -204,7 +205,7 @@ export default function Projects() {
 
           {/* Card #6 */}
 
-          <Card className="col-md-4 col-1 card-bottom reveal">
+          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg alt="Peeking at cards on a blackjack table" src={blackJack} top width="33%" />
             <CardBody>
               <CardTitle tag="h5">Black Jack</CardTitle>
