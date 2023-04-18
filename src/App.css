@@ -85,11 +85,16 @@ html {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+  /* width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 *.dark {
@@ -115,11 +120,6 @@ hr.divider {
   margin: 1.7rem auto;
   background-color: white;
   opacity: 1;
-}
-
-.fa-map-marker {
-  align-items: center;
-  display: inline-block;
 }
 
 .social-media-buttons a {
@@ -174,6 +174,12 @@ hr.divider {
   
 }
 
+@media (max-width: 600px) {
+  .masthead-row {
+    flex-grow: 1
+  }
+}
+
 
 main { 
   /* padding: 100px 27px; */
@@ -222,30 +228,6 @@ main {
   left: 0;
   z-index: 1030;
 }
-
-/* #main-nav { */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* padding: 30px 250px;  */
-  /* height: 60px; */
-  /* width: 100%;  */
-  /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25); 
-  align-items: center;
-  justify-content: space-between; */
-  /* z-index: 1;  */
-  /* top: 0; */
-  /* position: fixed; */
-  /* float:left; */
-  /* position:fixed; */
-    /* width:100vw; */
-    /* border:1px white solid; 
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; */
-/* } */
 
 #main-nav {
   justify-content: center;
@@ -321,6 +303,7 @@ a:hover {
 .navbar-collapse, .navbar-brand {
   display: flex;
   justify-content: center;
+  flex-grow: none; /* helps center my name next to nav  */
 }
 
 /* ABOUT styles */
@@ -353,6 +336,8 @@ a:hover {
 {
   width: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-info { 
@@ -412,145 +397,6 @@ a:hover {
   margin-right: 0.5em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-/* TOGGLER styles */
-
-/* .toggler {
-  display: flex;
-  align-items: center;
-}
-
-.toggler p {
-  font-size: 0.625rem;
-  font-weight: 600;
-}
-
-.toggler--slider {
-  width: 25px;
-  height: 13px;
-  background-color: #2B283A;
-  border-radius: 2rem;
-  margin-inline: 7px;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border: 1px solid black;
-  box-sizing: content-box;
-} */
-
-/* nav.dark .toggler--slider {
-  border-color: white;
-  background-color: #F5F5F5;
-}
-
-.toggler--slider--circle {
-  height: 13px;
-  width: 13px;
-  background-color: white;
-  border-radius: 50%;
-} */
-
-/* nav.dark .toggler--slider--circle {
-  background-color: black;
-}
-
-.toggler--light {
-  color: #2B283A;
-}
-
-nav.dark .toggler--light {
-  color: #918E9B;
-}
-
-.toggler--dark {
-  color: #D5D4D8;
-}
-
-nav.dark .toggler-dark {
-  color: #FFFFFF;
-}
-
-nav.dark .toggler--slider {
-  justify-content: flex-end;
-} */
-
-/* buttons */
-
-/* .button.linkedin { */
-  /* display: flex;
-flex-direction: row;
-justify-content: center; */
-/* align-items: center;
-padding: 9px 13px 9px 11px; */
-
-/* box width */
-/* width: 100px;
-height: 34px;
-left: 283px;
-top: 469px; */
-
-/* text */
-/* position: static;
-width: 57px;
-height: 16px;
-left: 40px;
-top: 9px; */
-/* color: white;
-font-family: 'Arial';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px; */
-
-/* background: #297FE5; */
-/* shadow/sm */
-/* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px; */
-/* } */
-
-/* .button.email { */
-  /* position: absolute; */
-/* width: 115px;
-height: 34px;
-left: 151px;
-top: 468px; */
-
-/* white */
-
-/* background: #FFFFFF; */
-/* gray/300 */
-
-/* border: 1px solid #D1D5DB;
-box-sizing: border-box; */
-/* shadow/sm */
-
-/* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px; */
-
-/* text */
-/* font-family: 'Arial';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px; */
-
-/* } */
-
-/* .button.github {
-  width: 115px;
-  height: 34px;
-  left: 151px;
-  top: 468px;
-  padding: 9px 13px 9px 11px;
-  border-radius: 6px;
-
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-} */
 
 .buttons { 
   display: flex;
