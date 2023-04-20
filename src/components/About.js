@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function About() {
     return(
-        <section className="about-section" id="about-section">
+        <section className="container-fluid about-section" id="about-section">
         <h2 className="main--header reveal" id="about-header" href="#about">
           About Me
         </h2>

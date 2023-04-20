@@ -310,6 +310,7 @@ a:hover {
 
 #about-header { 
   padding-bottom: 0.5em;
+  padding-top: 5em;
   font-size: 2rem;
   color: white;
 }
@@ -321,6 +322,7 @@ a:hover {
 
 .about-row {
   background-color: indigo;
+  padding-bottom: 5em;
 }
 
 #about-header,
@@ -492,7 +494,7 @@ a {
   padding-top: 1em;
   background-color: indigo;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 

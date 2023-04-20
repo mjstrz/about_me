@@ -42,8 +42,8 @@ reveal();
 
 export default function Projects() {
   return (
-    <section className="projects-section" id="projects">
-      <div className="projects">
+    <section className="container-fluid projects-section" id="projects">
+      <div className="container projects">
         <h2 id="projects-header" className="reveal">
           Projects
         </h2>
@@ -52,7 +52,7 @@ export default function Projects() {
         {/* </div> */}
 
 
-        <CardGroup>
+        {/* <CardGroup> */}
           {/* <row> */}
           {/* Card #1 */}
           <Card className="col-md-4 col-xs-1 reveal">
@@ -112,9 +112,9 @@ export default function Projects() {
               </Button>
             </CardBody>
           </Card>
-        </CardGroup>
+        {/* </CardGroup> */}
 
-        <CardGroup>
+        {/* <CardGroup> */}
           <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg
               alt="Farine cat cafe logo"
@@ -172,12 +172,12 @@ export default function Projects() {
               </Button>
             </CardBody>
           </Card>
-        </CardGroup>
+        {/* </CardGroup> */}
 
         {/* Card #4 */}
 
         {/* Card #5 */}
-        <CardGroup>
+        {/* <CardGroup> */}
           <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
             <CardImg alt="6 die on a black tabletop" src={tenzies} top width="33%" />
             <CardBody>
@@ -226,7 +226,7 @@ export default function Projects() {
             </CardBody>
           </Card>
           {/* </row> */}
-        </CardGroup>
+        {/* </CardGroup> */}
       </div>
     </section>
   );
