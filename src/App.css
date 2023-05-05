@@ -126,69 +126,6 @@ hr.divider {
   color: black;
 }
 
-/* MASTHEAD STYLES */
-
-.masthead { 
-  padding-top: 10rem;
-  /* padding-bottom: calc(10rem - 4.5rem); */
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("images/lavender/lavenderField.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.masthead-row, 
-.masthead-about,
-.masthead-header,
-.hello-box, 
-.masthead-about-text, 
-.masthead-text-box { 
-  background-color: transparent;
-}
-
-.masthead-text-box {
-  color: white;
-  opacity: 0.8;
-}
-
-.masthead-header {
-  opacity: 0.8;
-}
-
-#lavender { 
-  opacity: 0.9;
-}
-
-.btn-masthead { 
-  background-color: rebeccapurple;
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.btn-masthead:hover {
-  color: cornsilk;
-  font-weight: bold;
-  
-}
-
-@media (max-width: 600px) {
-  .masthead-row {
-    flex-grow: 1
-  }
-}
-
-
-main { 
-  /* padding: 100px 27px; */
-  flex: 1 1 auto;
-  background-color: #F2E7FF;
-  color: #2B283A;
-}
-
-
 /* NAVIGATION */
 
 .navbar > .container,
@@ -306,6 +243,84 @@ a:hover {
   flex-grow: none; /* helps center my name next to nav  */
 }
 
+
+
+/* MASTHEAD STYLES */
+
+.masthead { 
+  padding-top: 10rem;
+  /* padding-bottom: calc(10rem - 4.5rem); */
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("images/lavender/lavenderField.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.masthead-row, 
+.masthead-about,
+.masthead-header,
+.hello-box, 
+.masthead-about-text, 
+.masthead-text-box { 
+  background-color: transparent;
+}
+
+.masthead-text-box {
+  color: white;
+  opacity: 0.8;
+}
+
+.masthead-header {
+  opacity: 0.8;
+}
+
+#lavender { 
+  opacity: 0.9;
+}
+
+.btn-masthead { 
+  background-color: rebeccapurple;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-masthead:hover {
+  color: cornsilk;
+  font-weight: bold;
+  
+}
+
+@media (max-width: 600px) {
+  .masthead-row {
+    flex-grow: 1
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .masthead-header {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  p.masthead-text-box {
+    font-size: 1.25rem;
+    font-weight: 400
+  }
+}
+
+
+main { 
+  /* padding: 100px 27px; */
+  flex: 1 1 auto;
+  background-color: #F2E7FF;
+  color: #2B283A;
+}
+
+
 /* ABOUT styles */
 
 #about-header { 
@@ -381,6 +396,18 @@ a:hover {
     padding-right: 2.5em;
   }
 
+  #about-header {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  p.about-info {
+    font-size: 1.25rem;
+    font-weight: 400
+  }
+}
+
+@media (max-width: 576px) {
   #about-header {
     font-size: 3rem;
     font-weight: 500;
