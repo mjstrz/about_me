@@ -112,7 +112,7 @@ export default function Projects() {
         {/* </CardGroup> */}
 
         {/* <CardGroup> */}
-          <Card className="col card-bottom reveal">
+          <Card className="col reveal">
             <CardImg
               alt="Farine cat cafe logo"
               src={farineLogo}
