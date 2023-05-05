@@ -48,10 +48,6 @@ export default function Projects() {
         <h2 id="projects-header" className="reveal">
           Projects
         </h2>
-        {/* <div class="row projects-header-divider"> */}
-        {/* <hr class="divider divider-light" /> */}
-        {/* </div> */}
-
 
         {/* <CardGroup> */}
           {/* <row> */}

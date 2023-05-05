@@ -380,6 +380,16 @@ a:hover {
     padding-left: 2.5em;
     padding-right: 2.5em;
   }
+
+  #about-header {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  p.about-info {
+    font-size: 2rem;
+    font-weight: 400
+  }
 }
 
 /* .about-button-div { 
