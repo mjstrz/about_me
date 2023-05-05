@@ -504,6 +504,10 @@ a {
   display: flex;
 }
 
+.project-cards-bgcolor {
+  background-color: indigo;
+}
+
 .row.projects-header-divider, 
 .project-section {
   width: 100%;

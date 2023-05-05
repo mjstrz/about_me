@@ -42,9 +42,9 @@ reveal();
 
 export default function Projects() {
   return (
-    <div className="row">
-    <section className="container-fluid projects-section" id="projects">
-      <div className="container projects">
+    <div className="row projects projects-section">
+    <div className="container project-cards-bgcolor" id="projects">
+      {/* <div className="container projects"> */}
         <h2 id="projects-header" className="reveal">
           Projects
         </h2>
@@ -229,8 +229,8 @@ export default function Projects() {
           
           {/* </row> */}
         {/* </CardGroup> */}
-      </div>
-    </section>
+      {/* </div> */}
+    </div>
     </div>
   );
 }
