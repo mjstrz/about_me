@@ -42,6 +42,7 @@ reveal();
 
 export default function Projects() {
   return (
+    <div className="row">
     <section className="container-fluid projects-section" id="projects">
       <div className="container projects">
         <h2 id="projects-header" className="reveal">
@@ -55,7 +56,7 @@ export default function Projects() {
         {/* <CardGroup> */}
           {/* <row> */}
           {/* Card #1 */}
-          <Card className="col-md-4 col-xs-1 reveal">
+          <Card className="col reveal">
             <CardImg
               classname="farine-logo"
               alt="Farine cafe logo"
@@ -64,7 +65,7 @@ export default function Projects() {
               width="33%"
             />
             <CardBody>
-              <CardTitle tag="h5">Farine Bakery & Cat Cafe</CardTitle>
+              <CardTitle tag="h3">Farine Bakery & Cat Cafe</CardTitle>
               <CardSubtitle
                 className="mb-2 text-muted align-items-center"
                 tag="h6"
@@ -91,10 +92,10 @@ export default function Projects() {
           </Card>
 
           {/*Card #2  */}
-          <Card className="col-md-4 col-xs-1 reveal">
-            <CardImg alt="Lavender field" src={Lavender} top width="%" />
+          <Card className="col reveal">
+            <CardImg alt="Lavender field" src={Lavender} top width="15%" />
             <CardBody>
-              <CardTitle tag="h5">This Portfolio Site</CardTitle>
+              <CardTitle tag="h3">This Portfolio Site</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
@@ -115,7 +116,7 @@ export default function Projects() {
         {/* </CardGroup> */}
 
         {/* <CardGroup> */}
-          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
+          <Card className="col card-bottom reveal">
             <CardImg
               alt="Farine cat cafe logo"
               src={farineLogo}
@@ -123,7 +124,7 @@ export default function Projects() {
               width="33%"
             />
             <CardBody>
-              <CardTitle tag="h5">Farine Bakery & Cafe [Bootstrap]</CardTitle>
+              <CardTitle tag="h3">Farine Bakery & Cafe [Bootstrap]</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
@@ -148,10 +149,10 @@ export default function Projects() {
 
           {/* <CardGroup> */}
           {/* Card #3 */}
-          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
+          <Card className="col card-bottom reveal">
             <CardImg alt="Three different emoji faces" src={memeLogo} top width="33%" />
             <CardBody>
-              <CardTitle tag="h5">Meme Generator</CardTitle>
+              <CardTitle tag="h3">Meme Generator</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
@@ -178,10 +179,10 @@ export default function Projects() {
 
         {/* Card #5 */}
         {/* <CardGroup> */}
-          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
+          <Card className="col card-bottom reveal">
             <CardImg alt="6 die on a black tabletop" src={tenzies} top width="33%" />
             <CardBody>
-              <CardTitle tag="h5">Tenzies</CardTitle>
+              <CardTitle tag="h3">Tenzies</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
@@ -205,10 +206,10 @@ export default function Projects() {
 
           {/* Card #6 */}
 
-          <Card className="col-md-4 col-xs-1 mt-5 card-bottom reveal">
+          <Card className="col card-bottom reveal">
             <CardImg alt="Peeking at cards on a blackjack table" src={blackJack} top width="33%" />
             <CardBody>
-              <CardTitle tag="h5">Black Jack</CardTitle>
+              <CardTitle tag="h3">Black Jack</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
@@ -225,9 +226,11 @@ export default function Projects() {
               </Button>
             </CardBody>
           </Card>
+          
           {/* </row> */}
         {/* </CardGroup> */}
       </div>
     </section>
+    </div>
   );
 }
