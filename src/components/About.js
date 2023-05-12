@@ -38,7 +38,7 @@ export default function About() {
         </div>
         
         <row class="about-row">
-        <a class="btn btn-about col-xs-12 col-lg-4 col-xl-2 mt-4 reveal" href="#projects">
+        <a class="btn btn-about col-xs-12 mt-4 reveal" href="#projects">
                     My Experience
               </a>
               </row>
