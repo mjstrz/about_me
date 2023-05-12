@@ -173,6 +173,7 @@ hr.divider {
   padding: 0;
   margin: 0;
   background-color: cornsilk;
+  border-style: none;
  }
  
  #main-nav a {
@@ -239,7 +240,7 @@ a:hover {
 
 .navbar-collapse, .navbar-brand {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-grow: none; /* helps center my name next to nav  */
 }
 
