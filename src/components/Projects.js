@@ -49,7 +49,7 @@ export default function Projects() {
           Projects
         </h2>
 
-        {/* <CardGroup> */}
+        <CardGroup>
           {/* <row> */}
           {/* Card #1 */}
           <Card className="col reveal">
@@ -109,10 +109,10 @@ export default function Projects() {
               </Button>
             </CardBody>
           </Card>
-        {/* </CardGroup> */}
+        </CardGroup>
 
-        {/* <CardGroup> */}
-          <Card className="col reveal">
+        <CardGroup>
+          <Card className="col card-bottom reveal">
             <CardImg
               alt="Farine cat cafe logo"
               src={farineLogo}
@@ -169,63 +169,9 @@ export default function Projects() {
               </Button>
             </CardBody>
           </Card>
-        {/* </CardGroup> */}
 
-        {/* Card #4 */}
+        </CardGroup>
 
-        {/* Card #5 */}
-        {/* <CardGroup> */}
-          <Card className="col card-bottom reveal">
-            <CardImg alt="6 die on a black tabletop" src={tenzies} top width="33%" />
-            <CardBody>
-              <CardTitle tag="h3">Tenzies</CardTitle>
-              {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
-                </CardSubtitle> */}
-              <CardText>A fun game designed using React JS.</CardText>
-              <Button
-                className="github-button"
-                target="_blank"
-                href="https://mjstrz.github.io/tenzies_game/"
-              >
-                Live Site
-              </Button>
-              <Button
-                className="github-button"
-                target="_blank"
-                href="https://github.com/mjstrz/tenzies_game"
-              >
-                Code
-              </Button>
-            </CardBody>
-          </Card>
-
-          {/* Card #6 */}
-
-          <Card className="col card-bottom reveal">
-            <CardImg alt="Peeking at cards on a blackjack table" src={blackJack} top width="33%" />
-            <CardBody>
-              <CardTitle tag="h3">Black Jack</CardTitle>
-              {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
-                </CardSubtitle> */}
-              <CardText>A fun game designed using React JS.</CardText>
-              <Button className="github-button" target="_blank">
-                Live Site
-              </Button>
-              <Button
-                className="github-button"
-                target="_blank"
-                href="https://github.com/mjstrz/blackjack_game"
-              >
-                Code
-              </Button>
-            </CardBody>
-          </Card>
-          
-          {/* </row> */}
-        {/* </CardGroup> */}
-      {/* </div> */}
     </div>
     </div>
   );
