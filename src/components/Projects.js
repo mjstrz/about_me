@@ -73,7 +73,7 @@ export default function Projects() {
               <Button
                 className="github-button"
                 target="_blank"
-                href="https://mjstrz.github.io/farine-react/"
+                href="https://farine-react.netlify.app/"
               >
                 Live Site
               </Button>
@@ -134,7 +134,7 @@ export default function Projects() {
               <Button
                 className="github-button"
                 target="_blank"
-                href="https://github.com/mjstrz/farine-bootstrap-updated"
+                href="https://farine-bootstrap.netlify.app/"
               >
                 Code
               </Button>
