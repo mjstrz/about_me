@@ -128,13 +128,13 @@ export default function Projects() {
                 My cat cafe NuCamp Portfolio assignment that I initially created
                 using Bootstrap.
               </CardText>
-              <Button className="github-button" target="_blank">
+              <Button className="github-button" target="_blank" href="https://farine-bootstrap.netlify.app/">
                 Live Site
               </Button>
               <Button
                 className="github-button"
                 target="_blank"
-                href="https://farine-bootstrap.netlify.app/"
+                href="https://github.com/mjstrz/farine-bootstrap-updated"
               >
                 Code
               </Button>
