@@ -244,6 +244,15 @@ a:hover {
   flex-grow: none; /* helps center my name next to nav  */
 }
 
+@media screen and (max-width: 992px) {
+  .navbar-collapse, .navbar-brand {
+    justify-content: center;  
+  }
+  
+}
+  
+
+
 
 
 /* MASTHEAD STYLES */
