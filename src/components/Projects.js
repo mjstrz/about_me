@@ -14,7 +14,8 @@ import {
   Button,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import farineLogo from "../images/Farine_logo2.png";
+import farineLogoBootstrap from "../images/Farine_logo.png";
+import farineLogoCats from "../images/Farine_logo2.png"
 import memeLogo from "../images/memeEmoji.jpg";
 import blackJack from "../images/Blackjack-21_v2.jpg";
 import tenzies from "../images/tenziesDice.jpg";
@@ -55,8 +56,8 @@ export default function Projects() {
           <Card className="col reveal">
             <CardImg
               classname="farine-logo"
-              alt="Farine cafe logo"
-              src={farineLogo}
+              alt="Farine cat cafe logo"
+              src={farineLogoCats}
               top
               width="33%"
             />
@@ -67,7 +68,7 @@ export default function Projects() {
                 tag="h6"
               ></CardSubtitle>
               <CardText>
-                A cozy and quaint cat cafe site I created for a NuCamp portfolio
+                A cozy and quaint cat cafe site I created for my NuCamp portfolio
                 assignment, built using React JS.
               </CardText>
               <Button
@@ -114,19 +115,18 @@ export default function Projects() {
         <CardGroup>
           <Card className="col card-bottom reveal">
             <CardImg
-              alt="Farine cat cafe logo"
-              src={farineLogo}
+              alt="Farine Bakery & Cafe logo"
+              src={farineLogoBootstrap}
               top
-              width="33%"
+              width="15%"
             />
             <CardBody>
-              <CardTitle tag="h3">Farine Bakery & Cafe [Bootstrap]</CardTitle>
+              <CardTitle tag="h3">Farine Bakery & Cafe</CardTitle>
               {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
                   Card subtitle
                 </CardSubtitle> */}
               <CardText>
-                My cat cafe NuCamp Portfolio assignment that I initially created
-                using Bootstrap.
+                Before Farine evolved into a cat cafe, it was a traditional French bakery sans cats and brought to life via Bootstrap.        
               </CardText>
               <Button className="github-button" target="_blank" href="https://farine-bootstrap.netlify.app/">
                 Live Site
