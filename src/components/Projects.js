@@ -126,7 +126,7 @@ export default function Projects() {
                   Card subtitle
                 </CardSubtitle> */}
               <CardText>
-                Before Farine evolved into a cat cafe, it was a traditional French bakery sans cats and brought to life via Bootstrap.        
+                Before Farine evolved into a cat cafe, it started out as a traditional French bakery sans cats and was originally brought to life via Bootstrap.        
               </CardText>
               <Button className="github-button" target="_blank" href="https://farine-bootstrap.netlify.app/">
                 Live Site
