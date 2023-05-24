@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Lato&family=Outfit:wght@200&display=swap');
+
 * {
   /* box-sizing: border-box; */
-  /* background-color: whitesmoke; */
   background-color: #F2E7FF;
-  /* color: navy; */
+  font-family: 'Lato', sans-serif;
 }
 
 html {
